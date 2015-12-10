@@ -1,0 +1,29 @@
+<footer class="footer">
+        <div class="separate"><span class="separate-text">Tb Bravo</span></div>
+        <ul class="footer-list clearfix">
+            <li class="footer-item">
+                <a href="mailto:tb_bravo@baidu.com">
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                    <span class="footer-text">联系我们</span>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="http://wiki.baidu.com/pages/viewpage.action?pageId=53026019" target="_blank">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    <span class="footer-text">关于我们</span>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="https://github.com/regrex/weekly" target="_blank">
+                    <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+                    <span class="footer-text">页面源码</span>
+                </a>
+            </li>
+            <li class="footer-item copyright">
+                <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>
+                <span>2015 Baidu</span>
+            </li>
+        </ul>
+    </footer>
+    <%- js(['bootstrap/js/jquery.min.js', 'bootstrap/js/bootstrap.min.js']) %>
+    <%- is_home() ? js('js/index.js') : '' %>

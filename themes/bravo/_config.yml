@@ -1,0 +1,14 @@
+# Category Map
+categories:
+  business: 业务快报
+  technology: 技术资讯
+  team: 团队纪事
+  essay: 杂文精选
+
+# Category Posts
+total: 5
+
+# Content
+excerpt_link: Read More
+
+favicon: /favicon.png

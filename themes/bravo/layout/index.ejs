@@ -1,0 +1,16 @@
+<% for(var k in theme.categories){ %>
+    <section class="section-wrap">
+        <h2 class="section-title"><span><%= theme.categories[k] %></span></h2>
+        <ul class="article-list">
+            <% page.posts.filter(function(post){
+                return !!post.categories.findOne({name: k});
+            }).limit(theme.total).each(function(post){ %>
+                <li class="article-item">
+                    <%- link_to(config.root + post.path, post.title, {external: true}) %>
+                </li>
+            <% }); %>
+        </ul>
+    </section>
+<% } %>
+
+

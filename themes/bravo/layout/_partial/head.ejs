@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <%
+  var title = page.title;
+
+  if (is_archive()){
+    title = '归档';
+
+    if (is_month()){
+      title += ': ' + page.year + '/' + page.month;
+    } else if (is_year()){
+      title += ': ' + page.year;
+    }
+  } else if (is_category()){
+    title = '分类: ' + page.category;
+  } else if (is_tag()){
+    title = '标签: ' + page.tag;
+  }
+  %>
+  <title><%= title || '' %> | <%= config.title %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <%- theme.rss ? feed_tag(theme.rss, {title: config.title}) : '' %>
+  <%- theme.favicon ? favicon_tag(theme.favicon) : '' %>
+  <%- css(['bootstrap/css/bootstrap.min.css', 'css/index.css']) %>
+  <%- is_post() ? css('css/article.css') : '' %>
+</head>
