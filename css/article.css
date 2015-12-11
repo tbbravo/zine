@@ -1,0 +1,29 @@
+.article-title {
+    border-left: 10px solid #16A085;
+    padding-left: .5em;
+}
+
+.article-tag-list-item {
+    list-style: none;
+    float: left;
+    margin-right: 2em;
+}
+
+.article-tag-list-link {
+    background-color: #16A085;
+    color: #fff;
+    padding: 0 .5em;
+    position: relative;
+}
+
+.article-tag-list-link::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 0;
+    border: .6em solid #16A085;
+    border-color: transparent #16A085 transparent transparent;
+    right: 100%;
+    top: 0;
+}

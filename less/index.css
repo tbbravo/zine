@@ -1,0 +1,143 @@
+/**
+ * @file style for sun.baidu.com index.html
+ * @author dengxi
+ * @date 2015-05-14
+ */
+body {
+  background: #ffffff;
+  color: #ffffff;
+  font-family: 'Microsoft Yahei', SimHei, sans-serif;
+}
+.pages {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+}
+.page {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  min-height: 700px;
+  top: 100%;
+}
+.page-201310 {
+  top: 0%;
+  background: #fe6565;
+}
+.page-201310 .page-head {
+  background: #fe6565;
+}
+.page-201310 .page-head::before,
+.page-201310 .page-head::after {
+  background: #fe6565;
+}
+.page-201401 {
+  background: #fea265;
+}
+.page-201401 .page-head {
+  background: #fea265;
+}
+.page-201401 .page-head::before,
+.page-201401 .page-head::after {
+  background: #fea265;
+}
+.page-201405 {
+  background: #fef465;
+}
+.page-201405 .page-head {
+  background: #fef465;
+}
+.page-201405 .page-head::before,
+.page-201405 .page-head::after {
+  background: #fef465;
+}
+.page-201410 {
+  background: #65fe65;
+}
+.page-201410 .page-head {
+  background: #65fe65;
+}
+.page-201410 .page-head::before,
+.page-201410 .page-head::after {
+  background: #65fe65;
+}
+.page-201501 {
+  background: #65c1fe;
+}
+.page-201501 .page-head {
+  background: #65c1fe;
+}
+.page-201501 .page-head::before,
+.page-201501 .page-head::after {
+  background: #65c1fe;
+}
+.page-now {
+  background: #8d65fe;
+}
+.page-now .page-head {
+  background: #8d65fe;
+}
+.page-now .page-head::before,
+.page-now .page-head::after {
+  background: #8d65fe;
+}
+.page-future {
+  background: #c165fe;
+}
+.page-future .page-head {
+  background: #c165fe;
+}
+.page-future .page-head::before,
+.page-future .page-head::after {
+  background: #c165fe;
+}
+.container {
+  height: 100%;
+  position: relative;
+  padding: 25px 0;
+}
+.container::after {
+  content: ' ';
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  border-left: 1px solid #ffffff;
+  z-index: 0;
+}
+.page-head {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  z-index: 10;
+}
+.page-head h2 {
+  font-size: 30px;
+  margin: 0;
+  padding: 30px 0 10px;
+}
+.page-head::before,
+.page-head::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  margin-left: -10px;
+}
+.page-head::before {
+  top: 0%;
+}
+.page-head::after {
+  top: 100%;
+}
+.page-content {
+  position: relative;
+  min-height: 700px;
+  text-align: center;
+  z-index: 10;
+}

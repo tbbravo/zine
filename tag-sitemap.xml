@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/User-Agent/</loc>
+        <lastmod>2015-12-11T13:05:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E5%8E%9F%E5%88%9B/</loc>
+        <lastmod>2015-12-11T13:05:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E9%80%82%E9%85%8D/</loc>
+        <lastmod>2015-12-11T13:05:37.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/viewport/</loc>
+        <lastmod>2015-12-11T13:05:37.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E7%A7%BB%E5%8A%A8%E7%BD%91%E7%BB%9C/</loc>
+        <lastmod>2015-12-11T13:05:57.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/CSS/</loc>
+        <lastmod>2015-12-11T13:06:24.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/HTTP/</loc>
+        <lastmod>2015-12-11T13:06:41.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E7%BC%93%E5%AD%98/</loc>
+        <lastmod>2015-12-11T13:06:46.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E6%80%A7%E8%83%BD/</loc>
+        <lastmod>2015-12-11T13:06:46.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E8%A7%86%E9%A2%91%E7%9B%B4%E6%92%AD/</loc>
+        <lastmod>2015-12-11T13:06:51.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/HLS/</loc>
+        <lastmod>2015-12-11T13:06:51.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/iOS/</loc>
+        <lastmod>2015-12-11T13:07:03.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/Safari/</loc>
+        <lastmod>2015-12-11T13:07:03.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/Hybrid/</loc>
+        <lastmod>2015-12-11T13:07:08.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/Mobile/</loc>
+        <lastmod>2015-12-11T13:07:08.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/Framework/</loc>
+        <lastmod>2015-12-11T13:07:08.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E6%97%A0%E7%BA%BF%E7%94%B5%E5%95%86/</loc>
+        <lastmod>2015-12-11T13:07:17.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E5%9B%9E%E5%BD%92%E6%B5%8B%E8%AF%95/</loc>
+        <lastmod>2015-12-11T13:07:36.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/XSS/</loc>
+        <lastmod>2015-12-11T13:07:40.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E5%AE%89%E5%85%A8/</loc>
+        <lastmod>2015-12-11T13:07:40.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E5%B9%BF%E5%91%8A/</loc>
+        <lastmod>2015-12-11T13:07:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E7%BB%9F%E8%AE%A1/</loc>
+        <lastmod>2015-12-11T13:07:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E5%BB%BA%E6%A8%A1/</loc>
+        <lastmod>2015-12-11T13:07:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/HTML/</loc>
+        <lastmod>2015-12-11T13:07:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E8%A7%A6%E6%91%B8%E4%BA%8B%E4%BB%B6/</loc>
+        <lastmod>2015-12-11T13:07:57.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
+        <lastmod>2015-12-11T13:08:15.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E7%94%A8%E6%88%B7%E4%BD%93%E9%AA%8C/</loc>
+        <lastmod>2015-12-11T13:08:22.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E6%B5%8B%E8%AF%95/</loc>
+        <lastmod>2015-12-11T13:08:28.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91/</loc>
+        <lastmod>2015-12-11T13:08:28.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E6%8C%81%E7%BB%AD%E4%BA%A4%E4%BB%98/</loc>
+        <lastmod>2015-12-11T13:08:36.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/Team/</loc>
+        <lastmod>2015-12-11T13:08:41.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/%E5%9B%A2%E5%BB%BA%E6%B4%BB%E5%8A%A8/</loc>
+        <lastmod>2015-12-11T13:08:41.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/Promises/</loc>
+        <lastmod>2015-12-11T13:10:12.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://tbbravo.github.io/weekly/tags/Javascript/</loc>
+        <lastmod>2015-12-11T13:10:12.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->
