@@ -3,21 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Bravo Zine</title>
+  <title>移动设备识别及贴吧应用 | Bravo Zine</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="移动设备识别及贴吧应用背景随着移动时代的到来，移动上网用户的比例已经超过PC用户，其中移动浏览器的用户基数也得到了很大的提升，移动浏览器的访问也是用户的重要来源之一。这些用户通过移动端浏览器访问网页时，受限于网络状况、屏幕分辨率、操作交互方式和渲染能力等原因的影响，并不一定适用于平时专为PC浏览器设计的网页。
-为此，许多网站会为移动web端做特别的优化。优化的方式有多种，其中，比较常见的几种方式是">
+  <meta name="description" content="本文主要介绍后端对移动设备的识别方法和方案，并详细介绍了贴吧的使用经验。
+
+来自crispgm的原创">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Bravo Zine">
+<meta property="og:title" content="移动设备识别及贴吧应用">
 <meta property="og:url" content="http://tbbravo.github.io/zine/2015/12/14/BZ01-02/index.html">
 <meta property="og:site_name" content="Bravo Zine">
-<meta property="og:description" content="移动设备识别及贴吧应用背景随着移动时代的到来，移动上网用户的比例已经超过PC用户，其中移动浏览器的用户基数也得到了很大的提升，移动浏览器的访问也是用户的重要来源之一。这些用户通过移动端浏览器访问网页时，受限于网络状况、屏幕分辨率、操作交互方式和渲染能力等原因的影响，并不一定适用于平时专为PC浏览器设计的网页。
-为此，许多网站会为移动web端做特别的优化。优化的方式有多种，其中，比较常见的几种方式是">
-<meta property="og:updated_time" content="2015-12-13T16:45:31.000Z">
+<meta property="og:description" content="本文主要介绍后端对移动设备的识别方法和方案，并详细介绍了贴吧的使用经验。
+
+来自crispgm的原创">
+<meta property="og:updated_time" content="2015-12-13T16:54:17.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Bravo Zine">
-<meta name="twitter:description" content="移动设备识别及贴吧应用背景随着移动时代的到来，移动上网用户的比例已经超过PC用户，其中移动浏览器的用户基数也得到了很大的提升，移动浏览器的访问也是用户的重要来源之一。这些用户通过移动端浏览器访问网页时，受限于网络状况、屏幕分辨率、操作交互方式和渲染能力等原因的影响，并不一定适用于平时专为PC浏览器设计的网页。
-为此，许多网站会为移动web端做特别的优化。优化的方式有多种，其中，比较常见的几种方式是">
+<meta name="twitter:title" content="移动设备识别及贴吧应用">
+<meta name="twitter:description" content="本文主要介绍后端对移动设备的识别方法和方案，并详细介绍了贴吧的使用经验。
+
+来自crispgm的原创">
   
   
     <link rel="icon" href="/favicon.png">
@@ -62,16 +65,34 @@
         <section id="main"><article id="post-BZ01-02" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/zine/2015/12/14/BZ01-02/" class="article-date">
-  <time datetime="2015-12-13T16:45:31.000Z" itemprop="datePublished">2015-12-14</time>
+  <time datetime="2015-12-13T16:54:17.000Z" itemprop="datePublished">2015-12-14</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/zine/categories/深度阅读/">深度阅读</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      移动设备识别及贴吧应用
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="u79FB_u52A8_u8BBE_u5907_u8BC6_u522B_u53CA_u8D34_u5427_u5E94_u7528"><a href="#u79FB_u52A8_u8BBE_u5907_u8BC6_u522B_u53CA_u8D34_u5427_u5E94_u7528" class="headerlink" title="移动设备识别及贴吧应用"></a>移动设备识别及贴吧应用</h1><h2 id="u80CC_u666F"><a href="#u80CC_u666F" class="headerlink" title="背景"></a>背景</h2><p>随着移动时代的到来，移动上网用户的比例已经超过PC用户，其中移动浏览器的用户基数也得到了很大的提升，移动浏览器的访问也是用户的重要来源之一。这些用户通过移动端浏览器访问网页时，受限于网络状况、屏幕分辨率、操作交互方式和渲染能力等原因的影响，并不一定适用于平时专为PC浏览器设计的网页。</p>
+        <blockquote>
+<p>本文主要介绍后端对移动设备的识别方法和方案，并详细介绍了贴吧的使用经验。</p>
+</blockquote>
+<p>来自<a href="https://github.com/crispgm" target="_blank" rel="external">crispgm</a>的原创<br><a id="more"></a></p>
+<h2 id="u80CC_u666F"><a href="#u80CC_u666F" class="headerlink" title="背景"></a>背景</h2><p>随着移动时代的到来，移动上网用户的比例已经超过PC用户，其中移动浏览器的用户基数也得到了很大的提升，移动浏览器的访问也是用户的重要来源之一。这些用户通过移动端浏览器访问网页时，受限于网络状况、屏幕分辨率、操作交互方式和渲染能力等原因的影响，并不一定适用于平时专为PC浏览器设计的网页。</p>
 <p>为此，许多网站会为移动web端做特别的优化。优化的方式有多种，其中，比较常见的几种方式是：</p>
 <ol>
 <li>在进入页面时初步识别，并提供切换功能，用户手动选择</li>
@@ -90,7 +111,7 @@
 <h3 id="wise/adaption"><a href="#wise/adaption" class="headerlink" title="wise/adaption"></a>wise/adaption</h3><p>对于C/C++模块需要进行设备识别，也可以调用此模块进行设备类型识别。用法非常简单，只需要初始化并传入http headers以及ip地址，就可以进行User-Agent + IP的复合式设备识别。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">"adaption.h"</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">"adapt_dictentry.h"</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">"adaptor_def.h"</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 声明和初始化</span></span><br><span class="line"><span class="keyword">static</span> Adaption_intf g_adaptor; </span><br><span class="line">g_adaptor.init(g_adaption_path);</span><br><span class="line"><span class="comment">// 识别函数</span></span><br><span class="line">is_mobile = g_adaptor.is_mobile_device(&amp;headers, (<span class="keyword">char</span> *)ip);</span><br><span class="line">is_pad = g_adaptor.is_pad_device(&amp;headers);</span><br><span class="line">device_type = g_adaptor.get_device_type(&amp;headers, (<span class="keyword">char</span> *)ip);</span><br></pre></td></tr></table></figure>
 <p>SVN地址：/app/wise/ta/adaption<br>PS：<strong>光有代码程序是跑不起来的，记得找他们现在的负责人要一份最新的词典文件！</strong></p>
-<h3 id="ngx_http_dna_module"><a href="#ngx_http_dna_module" class="headerlink" title="ngx_http_dna_module"></a>ngx_http_dna_module</h3><p><a href="http://gitlab.baidu.com/nginx/ngx-http-dna-module" target="_blank" rel="external">ngx_http_dna_module</a>为nginx http handler扩展，运行于<code>NGX_HTTP_POST_READ_PHASE</code>阶段。 </p>
+<h3 id="ngx_http_dna_module"><a href="#ngx_http_dna_module" class="headerlink" title="ngx_http_dna_module"></a>ngx_http_dna_module</h3><p><a href="http://gitlab.baidu.com/nginx/ngx-http-dna-module" target="_blank" rel="external">ngx_http_dna_module</a>为nginx http handler扩展，运行于<code>NGX_HTTP_POST_READ_PHASE</code>阶段。</p>
 <h4 id="Directives"><a href="#Directives" class="headerlink" title="Directives"></a>Directives</h4><ul>
 <li>dna<ul>
 <li><strong>Type</strong>: flag</li>
@@ -143,6 +164,8 @@
       <a data-url="http://tbbravo.github.io/zine/2015/12/14/BZ01-02/" data-id="cii1pz229003snh1fz96ppkcs" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/zine/tags/User-Agent/">User-Agent</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/zine/tags/原创/">原创</a></li></ul>
+
     </footer>
   </div>
   
@@ -171,7 +194,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/zine/categories/交流分享/">交流分享</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/zine/categories/分享交流/">分享交流</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/zine/categories/团队纪事/">团队纪事</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/zine/categories/技术快报/">技术快报</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/zine/categories/拓展阅读/">拓展阅读</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/zine/categories/深度阅读/">深度阅读</a><span class="category-list-count">11</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/zine/categories/交流分享/">交流分享</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/zine/categories/分享交流/">分享交流</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/zine/categories/团队纪事/">团队纪事</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/zine/categories/技术快报/">技术快报</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/zine/categories/拓展阅读/">拓展阅读</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/zine/categories/深度阅读/">深度阅读</a><span class="category-list-count">12</span></li></ul>
     </div>
   </div>
 
@@ -180,7 +203,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/CSS/">CSS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Framework/">Framework</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/HLS/">HLS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/HTML/">HTML</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/HTTP/">HTTP</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Hybrid/">Hybrid</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Javascript/">Javascript</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Mobile/">Mobile</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Promises/">Promises</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Safari/">Safari</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Team/">Team</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/XSS/">XSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/iOS/">iOS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/viewport/">viewport</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/回归测试/">回归测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/团建活动/">团建活动</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/安全/">安全</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/广告/">广告</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/建模/">建模</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/性能/">性能</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/持续交付/">持续交付</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/敏捷开发/">敏捷开发</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/无线电商/">无线电商</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/机器学习/">机器学习</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/测试/">测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/用户体验/">用户体验</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/移动网络/">移动网络</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/统计/">统计</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/缓存/">缓存</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/视频直播/">视频直播</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/触摸事件/">触摸事件</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/适配/">适配</a><span class="tag-list-count">2</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/CSS/">CSS</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Framework/">Framework</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/HLS/">HLS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/HTML/">HTML</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/HTTP/">HTTP</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Hybrid/">Hybrid</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Javascript/">Javascript</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Mobile/">Mobile</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Promises/">Promises</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Safari/">Safari</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/Team/">Team</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/User-Agent/">User-Agent</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/XSS/">XSS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/iOS/">iOS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/viewport/">viewport</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/原创/">原创</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/回归测试/">回归测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/团建活动/">团建活动</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/安全/">安全</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/广告/">广告</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/建模/">建模</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/性能/">性能</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/持续交付/">持续交付</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/敏捷开发/">敏捷开发</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/无线电商/">无线电商</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/机器学习/">机器学习</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/测试/">测试</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/用户体验/">用户体验</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/移动网络/">移动网络</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/统计/">统计</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/缓存/">缓存</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/视频直播/">视频直播</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/触摸事件/">触摸事件</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/zine/tags/适配/">适配</a><span class="tag-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -189,7 +212,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/zine/tags/CSS/" style="font-size: 15px;">CSS</a> <a href="/zine/tags/Framework/" style="font-size: 10px;">Framework</a> <a href="/zine/tags/HLS/" style="font-size: 10px;">HLS</a> <a href="/zine/tags/HTML/" style="font-size: 10px;">HTML</a> <a href="/zine/tags/HTTP/" style="font-size: 10px;">HTTP</a> <a href="/zine/tags/Hybrid/" style="font-size: 20px;">Hybrid</a> <a href="/zine/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/zine/tags/Mobile/" style="font-size: 10px;">Mobile</a> <a href="/zine/tags/Promises/" style="font-size: 10px;">Promises</a> <a href="/zine/tags/Safari/" style="font-size: 10px;">Safari</a> <a href="/zine/tags/Team/" style="font-size: 10px;">Team</a> <a href="/zine/tags/XSS/" style="font-size: 10px;">XSS</a> <a href="/zine/tags/iOS/" style="font-size: 10px;">iOS</a> <a href="/zine/tags/viewport/" style="font-size: 10px;">viewport</a> <a href="/zine/tags/回归测试/" style="font-size: 10px;">回归测试</a> <a href="/zine/tags/团建活动/" style="font-size: 10px;">团建活动</a> <a href="/zine/tags/安全/" style="font-size: 10px;">安全</a> <a href="/zine/tags/广告/" style="font-size: 10px;">广告</a> <a href="/zine/tags/建模/" style="font-size: 10px;">建模</a> <a href="/zine/tags/性能/" style="font-size: 20px;">性能</a> <a href="/zine/tags/持续交付/" style="font-size: 10px;">持续交付</a> <a href="/zine/tags/敏捷开发/" style="font-size: 10px;">敏捷开发</a> <a href="/zine/tags/无线电商/" style="font-size: 10px;">无线电商</a> <a href="/zine/tags/机器学习/" style="font-size: 15px;">机器学习</a> <a href="/zine/tags/测试/" style="font-size: 10px;">测试</a> <a href="/zine/tags/用户体验/" style="font-size: 15px;">用户体验</a> <a href="/zine/tags/移动网络/" style="font-size: 10px;">移动网络</a> <a href="/zine/tags/统计/" style="font-size: 10px;">统计</a> <a href="/zine/tags/缓存/" style="font-size: 10px;">缓存</a> <a href="/zine/tags/视频直播/" style="font-size: 10px;">视频直播</a> <a href="/zine/tags/触摸事件/" style="font-size: 10px;">触摸事件</a> <a href="/zine/tags/适配/" style="font-size: 15px;">适配</a>
+      <a href="/zine/tags/CSS/" style="font-size: 15px;">CSS</a> <a href="/zine/tags/Framework/" style="font-size: 10px;">Framework</a> <a href="/zine/tags/HLS/" style="font-size: 10px;">HLS</a> <a href="/zine/tags/HTML/" style="font-size: 10px;">HTML</a> <a href="/zine/tags/HTTP/" style="font-size: 10px;">HTTP</a> <a href="/zine/tags/Hybrid/" style="font-size: 20px;">Hybrid</a> <a href="/zine/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/zine/tags/Mobile/" style="font-size: 10px;">Mobile</a> <a href="/zine/tags/Promises/" style="font-size: 10px;">Promises</a> <a href="/zine/tags/Safari/" style="font-size: 10px;">Safari</a> <a href="/zine/tags/Team/" style="font-size: 10px;">Team</a> <a href="/zine/tags/User-Agent/" style="font-size: 10px;">User-Agent</a> <a href="/zine/tags/XSS/" style="font-size: 10px;">XSS</a> <a href="/zine/tags/iOS/" style="font-size: 10px;">iOS</a> <a href="/zine/tags/viewport/" style="font-size: 10px;">viewport</a> <a href="/zine/tags/原创/" style="font-size: 10px;">原创</a> <a href="/zine/tags/回归测试/" style="font-size: 10px;">回归测试</a> <a href="/zine/tags/团建活动/" style="font-size: 10px;">团建活动</a> <a href="/zine/tags/安全/" style="font-size: 10px;">安全</a> <a href="/zine/tags/广告/" style="font-size: 10px;">广告</a> <a href="/zine/tags/建模/" style="font-size: 10px;">建模</a> <a href="/zine/tags/性能/" style="font-size: 20px;">性能</a> <a href="/zine/tags/持续交付/" style="font-size: 10px;">持续交付</a> <a href="/zine/tags/敏捷开发/" style="font-size: 10px;">敏捷开发</a> <a href="/zine/tags/无线电商/" style="font-size: 10px;">无线电商</a> <a href="/zine/tags/机器学习/" style="font-size: 15px;">机器学习</a> <a href="/zine/tags/测试/" style="font-size: 10px;">测试</a> <a href="/zine/tags/用户体验/" style="font-size: 15px;">用户体验</a> <a href="/zine/tags/移动网络/" style="font-size: 10px;">移动网络</a> <a href="/zine/tags/统计/" style="font-size: 10px;">统计</a> <a href="/zine/tags/缓存/" style="font-size: 10px;">缓存</a> <a href="/zine/tags/视频直播/" style="font-size: 10px;">视频直播</a> <a href="/zine/tags/触摸事件/" style="font-size: 10px;">触摸事件</a> <a href="/zine/tags/适配/" style="font-size: 15px;">适配</a>
     </div>
   </div>
 
@@ -210,7 +233,7 @@
       <ul>
         
           <li>
-            <a href="/zine/2015/12/14/BZ01-02/">(no title)</a>
+            <a href="/zine/2015/12/14/BZ01-02/">移动设备识别及贴吧应用</a>
           </li>
         
           <li>
