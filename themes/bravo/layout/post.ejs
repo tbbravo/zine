@@ -1,6 +1,6 @@
 <article id="post-hack-in-localstorage" class="article article-type-post">
     <div class="article-meta">
-        <a href="<%= config.root + page.path %>" class="article-date">
+        <a href="<%= page.link || (config.root + page.path) %>" class="article-date">
         <time datetime="<%= page.date %>" itemprop="datePublished"><%= page.date.format(config.date_format) %></time>
         </a>
     </div>

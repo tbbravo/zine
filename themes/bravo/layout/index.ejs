@@ -1,16 +1,16 @@
-<% for(var k in theme.categories){ %>
-    <section class="section-wrap">
-        <h2 class="section-title"><span><%= theme.categories[k] %></span></h2>
-        <ul class="article-list">
-            <% page.posts.filter(function(post){
-                return !!post.categories.findOne({name: k});
-            }).limit(theme.total).each(function(post){ %>
-                <li class="article-item">
-                    <%- link_to(config.root + post.path, post.title, {external: true}) %>
-                </li>
-            <% }); %>
-        </ul>
-    </section>
-<% } %>
-
+<%
+    var lastDay = 0;
+    var day;
+    page.posts.each(function(post){
+        day = post.date.date();
+        if (lastDay !== day) {
+%>
+            <h2><a href="<%= config.root + '/archives/' + post.date.format('YYYY/MM/DD') %>" target="_blank">
+                <%= post.date.format(config.date_format) %>周刊
+            </a></h2>
+<%
+            lastDay = day;
+        }
+    });
+%>
 

@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://tbbravo.github.io/weekly/
-root: /
+url: http://tbbravo.github.io/
+root: /weekly/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -64,6 +64,13 @@ pagination_dir: page
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: bravo
+
+# Archive
+archive_generator:
+  per_page: 0
+  yearly: true
+  monthly: true
+  daily: true
 
 # Sitemap
 sitemap:
